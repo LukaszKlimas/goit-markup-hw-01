@@ -1,0 +1,68 @@
+[data-transform="none"] {
+    text-transform: none;
+  }
+  
+  [data-transform="uppercase"] {
+  text-transform:uppercase;
+  }
+  
+  [data-transform="lowercase"] {
+  text-transform:lowercase;
+  }
+  
+  [data-transform="capitalize"] {
+    text-transform:capitalize;
+  }
+  .up {
+    text-decoration: overline wavy red;
+  }
+  .through {
+    text-decoration: line-through dashed green;
+  }
+  .down {
+   text-decoration: underline solid blue;
+  }
+  .no {
+     text-decoration: underline dotted orange;
+   text-decoration: none;
+  }
+  .combi {
+    text-decoration: underline overline double grey;
+  }
+
+  .rings {
+    color: orange;
+    text-shadow: -15px -8px 0 blue,
+                  14px -8px 0 black,
+                  29px 0 0 green,
+                  44px -8px 0 red;
+  }
+
+  .container {
+    width: 480px;
+    margin: auto;
+    padding: 15px;
+    background: burlywood;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 130px;
+    min-height: 75px;
+    background-color: teal;
+    color: #fff;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* zeszyt w gagientową kratkę
+  body {
+  min-height: 100vh;
+  background: 
+    repeating-linear-gradient(
+      #bbb 1px, transparent 2px, transparent 28px),
+    repeating-linear-gradient(
+      90deg, #bbb 1px, transparent 2px, transparent 28px);
+}*/
